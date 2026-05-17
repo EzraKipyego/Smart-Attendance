@@ -1,18 +1,124 @@
-# React + Vite
+# Smart Attendance System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+The Smart Attendance System is a React-based web application that allows students to mark attendance for sessions and enables administrators to manage sessions and generate reports.
 
-Currently, two official plugins are available:
+It uses Firebase Authentication for Google Sign-In and JSON Server as a mock backend for data persistence. The system demonstrates CRUD operations, protected routes, responsive design, and automated testing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Table of Contents
+- Introduction
+- Features
+- Tech Stack
+- Installation
+- Usage
+- Project Structure
+- Testing
+- Git Workflow
+- Future Improvements
+- License
+- Author
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## Features
 
-## Expanding the ESLint configuration
+### Student Features
+- Google Authentication login
+- View available sessions
+- Mark attendance per session
+- Prevent duplicate attendance
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Admin Features
+- Create sessions
+- Delete sessions
+- View attendance records
+- Generate PDF reports
+- View system summary dashboard
+
+### System Features
+- Role-based protected routes
+- Fully responsive design (mobile + desktop)
+- Persistent data using JSON Server API
+- Reusable React components
+- Automated testing using Vitest
+
+---
+
+## Tech Stack
+- React (Frontend framework)
+- Tailwind CSS (Styling)
+- Firebase Authentication (Google OAuth)
+- JSON Server (Mock backend API)
+- React Router DOM (Routing)
+- Vitest + React Testing Library (Testing)
+- jsPDF + html2canvas (Report generation)
+
+---
+
+## Installation
+
+### 1. Clone repository
+```bash
+git clone [text](https://github.com/EzraKipyego/Smart-Attendance)
+```
+## 2. Navigate project
+```bash
+cd smart-attendance
+```
+## 3. Install dependencies
+```bash
+npm install
+```
+## 4. Start JSON Server
+```bash
+npx json-server --watch db.json --port 3000
+```
+## 5. Start development server
+```bash
+npm run dev
+```
+--- 
+## Usage
+
+### Student Flow
+- Login with Google
+- View available sessions
+- Mark attendance
+
+## Admin Flow
+- Login as admin
+- Create/delete sessions
+- View attendance records
+--- 
+## Testing
+This project uses Vitest and React Testing Library.
+--- 
+### Run tests
+- npm test
+### What is tested:
+- Page rendering
+- Component visibility
+- Basic UI behavior
+- Data rendering from mocked API
+---
+## Git Workflow
+- Feature-based development using branches
+- Separate commits per feature
+- Merging completed features into main branch
+- Clean and structured version control history
+---
+## Future Improvements
+- Replace JSON Server with Firebase Firestore
+- Add email notifications
+- Add QR code attendance scanning
+- Improve admin analytics dashboard
+- Deploy using Vercel or Netlify
+---
+## License
+This project is licensed under the MIT License.
+---
+
+## Author
+Ezra Kipyego
