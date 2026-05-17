@@ -12,6 +12,9 @@ export default defineConfig({
     tailwindcss(),
   ],
 
+  // IMPORTANT FOR GITHUB PAGES DEPLOYMENT
+  base: "/Smart-Attendance/",
+
   // VITEST CONFIG
   test: {
     globals: true,
