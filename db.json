@@ -1,0 +1,64 @@
+{
+  "sessions": [
+    {
+      "title": "Data entry ",
+      "status": "open",
+      "date": "2026-05-17",
+      "id": 1
+    },
+    {
+      "title": "Artificial intelligence",
+      "status": "open",
+      "date": "2026-05-17",
+      "id": 2
+    },
+    {
+      "title": "Software Engineering",
+      "status": "open",
+      "date": "2026-05-17",
+      "id": 3
+    }
+  ],
+  "attendance": [
+    {
+      "studentName": "Ezra Smaei",
+      "email": "ezrasmaei65@gmail.com",
+      "sessionId": 1,
+      "date": "5/17/2026",
+      "time": "03:56 PM",
+      "id": 1
+    },
+    {
+      "studentName": "EZRA SMAEI",
+      "email": "ezrasmaei@gmail.com",
+      "sessionId": 1,
+      "date": "5/17/2026",
+      "time": "04:23 PM",
+      "id": 2
+    },
+    {
+      "studentName": "EZRA SMAEI",
+      "email": "ezrasmaei@gmail.com",
+      "sessionId": 2,
+      "date": "5/17/2026",
+      "time": "04:23 PM",
+      "id": 3
+    },
+    {
+      "studentName": "Ezra Smaei",
+      "email": "ezrasmaei65@gmail.com",
+      "sessionId": 2,
+      "date": "5/17/2026",
+      "time": "04:57 PM",
+      "id": 4
+    },
+    {
+      "studentName": "Ezra Smaei",
+      "email": "ezrasmaei65@gmail.com",
+      "sessionId": 3,
+      "date": "5/17/2026",
+      "time": "04:57 PM",
+      "id": 5
+    }
+  ]
+}
