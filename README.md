@@ -60,7 +60,7 @@ It uses Firebase Authentication for Google Sign-In and JSON Server as a mock bac
 
 ### 1. Clone repository
 ```bash
-git clone [text](https://github.com/EzraKipyego/Smart-Attendance)
+git clone https://github.com/EzraKipyego/Smart-Attendance.git
 ```
 ## 2. Navigate project
 ```bash
