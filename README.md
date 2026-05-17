@@ -8,17 +8,16 @@ It uses Firebase Authentication for Google Sign-In and JSON Server as a mock bac
 ---
 
 ## Table of Contents
-- Introduction
-- Features
-- Tech Stack
-- Installation
-- Usage
-- Project Structure
-- Testing
-- Git Workflow
-- Future Improvements
-- License
-- Author
+- [Introduction](#introduction)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Git Workflow](#git-workflow)
+- [Future Improvements](#future-improvements)
+- [License](#license)
+- [Author](#author)
 
 ---
 
@@ -39,7 +38,7 @@ It uses Firebase Authentication for Google Sign-In and JSON Server as a mock bac
 
 ### System Features
 - Role-based protected routes
-- Fully responsive design (mobile + desktop)
+- Fully responsive design mobile and desktop
 - Persistent data using JSON Server API
 - Reusable React components
 - Automated testing using Vitest
@@ -52,8 +51,8 @@ It uses Firebase Authentication for Google Sign-In and JSON Server as a mock bac
 - Firebase Authentication (Google OAuth)
 - JSON Server (Mock backend API)
 - React Router DOM (Routing)
-- Vitest + React Testing Library (Testing)
-- jsPDF + html2canvas (Report generation)
+- Vitest and React Testing Library (Testing)
+- jsPDF and html2canvas (Report generation)
 
 ---
 
@@ -82,7 +81,7 @@ npm run dev
 --- 
 ## Usage
 
-### Student Flow
+### Student flow
 - Login with Google
 - View available sessions
 - Mark attendance
@@ -114,9 +113,9 @@ This project uses Vitest and React Testing Library.
 - Add email notifications
 - Add QR code attendance scanning
 - Improve admin analytics dashboard
-- Deploy using Vercel or Netlify
+- Deploy using Vercel
 ---
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 ## Author
 Ezra Kipyego
