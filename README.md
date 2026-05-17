@@ -118,7 +118,5 @@ This project uses Vitest and React Testing Library.
 ---
 ## License
 This project is licensed under the MIT License.
----
-
 ## Author
 Ezra Kipyego
